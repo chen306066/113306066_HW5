@@ -1,0 +1,105 @@
+/* General body styling */
+body {
+    background-color: #eeede1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Main container */
+.main-container {
+    display: flex;
+    background-color: #ffffff;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Left panel styling */
+.left-panel {
+    width: 330px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    height: 1150px;
+}
+
+.photo-panel {
+    background-image: url('your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+}
+
+.text-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.nccu-icon {
+    align-self: center;
+    margin-top: 20px;
+}
+
+/* Right panel styling */
+.right-panel {
+    width: 540px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.timeline .entry {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.homework-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.homework-list a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.homework-list a:hover {
+    color: #0056b3;
+}
+
+.album-covers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.album-covers img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.note {
+    font-size: 0.85em;
+    color: #666;
+}
